@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         imageViews.add(imageView3);
         imageViews.add(imageView4);
         for (int i = 0; i < 5; i++) {
-            titles.add("test :" + i);
+            titles.add("tab :" + i);
             fragments.add(new TestFragment());
         }
         bannerViewPager.setAdapter(new ImageAdapter(imageViews));
